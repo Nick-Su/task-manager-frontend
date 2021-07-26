@@ -1,0 +1,38 @@
+
+.task-item {
+  display: flex;
+  justify-content:  space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  width: 500px;
+  background-color: aquamarine;
+  margin-top: 20px;
+  font-size: 22px;
+  padding: 5px;
+}
+
+.task-actions {
+  margin-left: auto;
+  order: 2;
+}
+
+.task-item input {
+  margin-right: 20px;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+.complete {
+  background-color: cadetblue;
+  text-decoration: line-through;
+}
+

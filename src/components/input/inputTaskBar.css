@@ -1,0 +1,15 @@
+.input-taskbar {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+}
+
+.input-taskbar input {
+  width: 30em;
+  height: 3em;
+}
+
+.input-taskbar button {
+  margin-left: 10px;
+  height: 3em;
+}

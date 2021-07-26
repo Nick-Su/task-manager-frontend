@@ -1,0 +1,12 @@
+.title-bar-box {
+  height: 10em;
+  background-color: #f75c54;
+  color: white;  
+  text-align: center;
+}
+
+.title-bar-box h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+  padding-top: 1em;
+}
