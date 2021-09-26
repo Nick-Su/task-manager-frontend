@@ -1,5 +1,5 @@
 import { Dispatch } from "react";
-import { Task } from "../models/Task";
+
 import { 
   getTasks,
   getTasksSuccess,
@@ -15,7 +15,7 @@ import {
 } from "./tasksActionCreators";
 
 const axios = require('axios');
-const url = 'http://localhost:5000/api/tasks/';
+const url = 'http://172.21.0.3:5000/api/tasks/';
 
 export const fetchTasks = (): Dispatch<any> => {
   return async (dispatch: any): Promise<void> => {
